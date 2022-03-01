@@ -1,5 +1,9 @@
 
 function food[recipe[ingredient1, ingredient2, ingredient3, ingredient4, ingredient5]]
 
-SELECT food.recipe
-CREATE "ingredient1"
+CREATE TABLE recipe.list (
+   recipe VARCHAR(40) PRIMARY KEY,
+   ingredients VARCHAR(100),
+);
+
+INSERT INTO recipe.list VALUES('Dumplings', 'flour, baking powder, white sugar, salt, margarine, milk');
