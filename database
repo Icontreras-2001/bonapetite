@@ -1,9 +1,38 @@
+var chicken = ["Chicken Breast, ", "Tablespoon of Paprika, ", "Tablespoon of oil, ", "Mushrooms, ", "Spec of Salt "]
+var salad = ["Lettuce, ", "Tomatoes, ", "Olives, ", "Spinach, ", "Olive Oil "]
+var chickenLime = ["Chicken Breast, ", "Lemon, ", "Tumeric, ", "Olives, ", "Spec of Pepper "]
+var recipe = [chicken, salad, chickenLime]
 
-function food[recipe[ingredient1, ingredient2, ingredient3, ingredient4, ingredient5]]
+function dish(ingredient1) {
+ var dish1 = "";
+ 
+ switch(ingredient1) {
+    case "Chicken Breast":
+      dish1 = recipe[0] + recipe[2];
+      break;
+    case "Paprika":
+    case "Mushrooms":
+      dish1 = recipe[0];
+      break;
+    case "Olives":
+      dish1 = recipe[1,2];
+      break;
+    case "Lettuce":
+    case "Spinach":
+    case "Tomatoes":
+      dish1 = recipe[1];
+      break;
+      }
+      return dish1;
+      }
+      
 
-CREATE TABLE recipe.list (
-   recipe VARCHAR(40) PRIMARY KEY,
-   ingredients VARCHAR(100),
-);
+console.log(dish("Chicken Breast"))
 
-INSERT INTO recipe.list VALUES('Dumplings', 'flour, baking powder, white sugar, salt, margarine, milk');
+
+
+
+
+
+SELECT food.bytes
+CREATE "-id_food_name"
