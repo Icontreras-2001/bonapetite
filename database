@@ -1,5 +1,5 @@
 
 function food[recipe[ingredient1, ingredient2, ingredient3, ingredient4, ingredient5]]
 
-SELECT food.bytes
-CREATE "-id_food_name"
+SELECT food.recipe
+CREATE "ingredient1"
